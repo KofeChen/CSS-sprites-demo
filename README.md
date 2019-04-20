@@ -15,13 +15,13 @@
             width: 100px;
             height: 100px;
             background: url(https://kofechen.github.io/CSS-sprites-demo/css_sprite.png) no-repeat;
-            background-position: -5px 0;
+            background-position: -15px 0;
         }
         .love{
             width: 100px;
             height: 100px;
             background: url(https://kofechen.github.io/CSS-sprites-demo/css_sprite.png) no-repeat;
-            background-position: -115px 0;
+            background-position: -120px 0;
         }
     </style>
 </head>

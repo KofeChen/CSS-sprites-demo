@@ -6,24 +6,31 @@
     <meta charset="UTF-8">
     <title>CSS sprites</title>
     <style>
+        .origin{
+            width:200px;
+            height:100px;
+            background: url(https://kofechen.github.io/CSS-sprites-demo/css_sprite.png) no-repeat;
+        }
         .position{
             width: 100px;
             height: 100px;
-            display: inline-block;
-            background: url(css_sprite.png) no-repeat;
+            background: url(https://kofechen.github.io/CSS-sprites-demo/css_sprite.png) no-repeat;
             background-position: -5px 0;
         }
         .love{
             width: 100px;
             height: 100px;
-            display: inline-block;
-            background: url(css_sprite.png) no-repeat;
+            background: url(https://kofechen.github.io/CSS-sprites-demo/css_sprite.png) no-repeat;
             background-position: -115px 0;
         }
     </style>
 </head>
 <body>
+    这是原图
+    <div class="origin"></div>
+    这是定位
     <div class="position"></div>
+    这是爱心
     <div class="love"></div>
 </body>
 </html>
